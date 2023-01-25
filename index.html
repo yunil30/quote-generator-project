@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quotes Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/transition.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header data-aos="fade-down" data-aos-delay="0">
+        <h2>Random Quotes</h2>
+    </header>
+    <main data-aos="fade-up" data-aos-delay="300">
+        <div class="txtQuote" id="txtQuote">
+            Click the button to generate a random quote.
+        </div>
+        <div class="txtName" id="txtName">
+        </div>
+    </main>
+    <button class="btnGenerate" id="btnGenerate" data-aos="fade-up" data-aos-delay="300">Generate</button>
+    <script src="script/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 2000,
+        once: false,
+      });
+    </script>
+</body>
+</html>

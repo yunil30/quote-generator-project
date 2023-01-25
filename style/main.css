@@ -1,0 +1,97 @@
+body{ 
+    position: relative;
+    font-family: sans-serif;
+    background-color: #FDEDF2;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header part */
+header{
+    position: fixed;
+    background-color: #FFFFFA;
+    box-shadow: 0px 0px 8px #0000006b;box-shadow: 0px 0px 8px #0000006b;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+}
+
+header h2{
+    color: #32021F;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'PT Serif', serif, sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+/* Main part */
+main{
+    background-color: #FFFFFA;
+    border: 1px solid #32021F;
+    border-radius: 25px;
+    width: 1000px;
+    height: 100%;
+    margin: 0% auto;
+    padding: 2%;
+    margin-top: 130px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.txtQuote{
+    color: #32021F;
+    font-family: 'PT Serif', serif, sans-serif;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 60px;
+    padding: 2%;   
+}
+
+.txtName{
+    color: #32021F;
+    font-family: 'PT Serif', serif, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 40px;
+    padding: 2%;    
+}
+
+/* Button part */
+.btnGenerate{
+    background-color: #FFFFFA;
+    border: 1px solid #32021F;
+    border-radius: 10px;
+    color: #32021F;
+    font-family: 'PT Serif', serif, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    width: 250px;
+    height: 45px;
+    margin-bottom: 20px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.btnGenerate:hover{
+    background-color: #32021F;
+    color: #FFFFFA;
+}
+
+.btnGenerate:active{
+    opacity: 0.8;
+}
